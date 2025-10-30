@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    background-image: url(castlevania.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    color: rgb(175, 42, 42);
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #000;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: xx-large;
+    color: rgb(175, 42, 42);
+    text-shadow: 2px 2px 4px #000;
+}
+#mapa{
+    cursor: pointer;
+}
+#mapa:hover{
+    color: rgb(253, 4, 4);
+}
+div{
+    display: flexbox;
+    gap: 16px;
+    margin: 20px 0 29px 0;
+    border: 5px solid rgba(176, 46, 46, 0.18);
+    padding: 5px 5px 5px 0;
+
+}
+p{
+    font-size: large;
+    text-shadow: 2px 2px 4px #000;
+    margin: 0px;
+    padding: 0px;
+ 
+}
+ul{
+    list-style-type: none;
+    font-size: xx-large;
+    color: ghostwhite;
+    text-shadow: 2px 2px 4px #000;
+}
