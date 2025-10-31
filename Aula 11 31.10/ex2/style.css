@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    background: #b43a3e;
+    background: linear-gradient(90deg, rgba(180, 58, 62, 1) 0%, rgba(253, 55, 29, 1) 60%, rgba(252, 115, 69, 1) 100%);
+    text-shadow: 5px;
+}
+ul{
+    list-style: none;
+}
+.card{
+    border: 2px, solid, black;
+    align-items: center;
+    display: inline-block;
+    margin: 5px;
+    padding: 9px;
+}
