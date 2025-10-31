@@ -42,6 +42,17 @@ ul{
     border: 2px gold, double;
 }
 
-p{
+.cartao p{
+    color: green;
+    display: inline;
+}
+.cartao img{
+    width: 50%;
+}
+.cartao{
+    border: green, dashed, 2px;
     display: inline-block;
+    background-color: greenyellow;
+    margin: 50px;
+    padding: 9px 5px 12px 19px;
 }
