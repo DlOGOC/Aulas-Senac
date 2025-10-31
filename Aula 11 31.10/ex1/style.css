@@ -1,0 +1,20 @@
+ul a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    display: inline;
+}
+a:hover{
+    cursor: pointer;
+    color: red;
+    text-transform: uppercase;
+}
+ul{
+    text-align: center;
+    background-color: rgb(226, 169, 150);
+}
+.link{
+    text-decoration:  nome;
+    color: brown;
+}
