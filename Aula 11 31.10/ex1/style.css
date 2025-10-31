@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Noto Serif", serif;
+
+}
 ul a{
     text-decoration: none;
     color: black;
@@ -17,4 +23,25 @@ ul{
 .link{
     text-decoration:  nome;
     color: brown;
+}
+.p1{
+    color: yellowgreen;
+    text-align: center;
+    border: 2px, gold, solid;
+}
+
+.p2{
+    color: violet;
+    text-align: end;
+    border: 2px gold, dashed;
+}
+
+.p3{
+    color: blueviolet;
+    text-align: start;
+    border: 2px gold, double;
+}
+
+p{
+    display: inline-block;
 }
