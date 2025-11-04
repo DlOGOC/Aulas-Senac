@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cor-primaria: #C2B086;
+    --cor-hover: #e7d2a2;
+    --cor-fundo: #0C0D05;
+}
+body{
+    background-color: #171717;
+}
+header{
+    background-color: var(--cor-fundo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+}
+.contato i{
+    font-size: 23px;
+    color: var(--cor-primaria);
+    margin: 0 10px;
+}
+.contato i:hover{
+    display: inline-block;
+    color: var(--cor-hover);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.busca input{
+    width: 60vw;
+    padding: 6.586px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    box-shadow: 0px 2px 5px 1px #fdf8ec71;
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    }
+.busca input::placeholder{
+    color: var(--cor-primaria);
+}
+.busca input:focus{
+    outline: none;
+    border: 1px, solid, var(--cor-primaria);
+}
+.busca input:focus::placeholder{
+    color: var(--cor-hover);
+}
+    /*tirar o 'X' da barra de pesquisa do chrome*/
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+/* tirar o 'X' da barra de pesquisa do Internet Explorer */
+input[type="search"]::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+  
+  input[type="search"]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+.busca i{
+    font-size: 23px;
+    color: var(--cor-primaria);
+}
+.busca i:hover{
+    color: var(--cor-hover);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.busca{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 23px;
+}
+.navegation ul{
+    display: flex;
+    justify-content: center;
+    gap: 4vh;
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+.navegation li:hover{
+    transform: scale(1.05);
+}
+.navegation a:hover{
+    color: var(--cor-hover);
+}
+.navegation{
+    background-color: var(--cor-fundo);
+    padding: 2vh;
+}
+.painel{
+    margin-top: 1.5vh;
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+    box-shadow: 0px 2px 5px 1px #000000;
+}
+h2{
+    margin-left: 4vh;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+p{
+    margin-left: 2vh;
+    text-indent: 20px;
+    padding-bottom: 1vh;
+}
