@@ -122,8 +122,8 @@ h2{
     padding-bottom: 1vh;
 }
 p{
-    margin-left: 2vh;
-    text-indent: 1.5vh;
+    margin-left: 2%;
+    text-indent: 1.5%;
     padding-bottom: 1vh;
 }
 li{
@@ -134,6 +134,66 @@ li{
     margin-left: 2vh;
     text-indent: 1.5vh;
 }
-.listaServicos strong:hover{
+ strong:hover{
     color: var(--cor-hover);
+    transform: scale(1.01);
+    display: inline-block;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+.images img{
+    border-radius: 50px;
+    /* width: 15vh; */
+    align-items: center;
+    border: 2px var(--cor-primaria), solid;
+    margin-bottom: .5vh;
+}
+.cartao{
+    width: 23%;
+}
+.cartao img{
+    width: 55%;
+}
+.images div{
+    text-align: center;
+    text-indent: 0;
+    background-color: #090a03;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px 1px #000000;
+    padding-top: 1.5vh;
+    margin-top: 1.5vh;
+}
+.images p{
+    margin-right: 3.3%;
+}
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    gap: .5vh;
+}
+.depoimentos li{
+    background-color: #090a03;
+    border-radius: 5px;
+    padding: 7px;
+    box-shadow: 0px 2px 5px 1px #000000;
+    font-size: 1.7vh;
+    padding-top: 1.5vh;
+    margin-bottom: 1vh;
+}
+.button{
+    background-color: #171717;
+    border-radius: 5px;
+    color: var(--cor-primaria);
+    border-color: var(--cor-primaria);
+    margin: .5vh;
+    padding: .5vh;
+}
+.button:hover{
+    cursor: pointer;
+    color: var(--cor-hover);
+    border-color: var(--cor-hover);
+    transform: scale(1.01);
+    display: inline-block;
 }
