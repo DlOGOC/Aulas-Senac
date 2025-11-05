@@ -10,6 +10,7 @@
 }
 body{
     background-color: #171717;
+    cursor: default;
 }
 header{
     background-color: var(--cor-fundo);
@@ -132,4 +133,7 @@ li{
 .listaServicos{
     margin-left: 2vh;
     text-indent: 1.5vh;
+}
+.listaServicos strong:hover{
+    color: var(--cor-hover);
 }
