@@ -1,0 +1,296 @@
+/* ESTILIZAÇÃO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --cor-princial: #2563EB;
+    --cor-secundaria: #DBEAFE;
+    --branco: #f7f7f7;
+}
+body{
+    background-color: #F9FAFB;
+}
+header{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    color: var(--branco);
+    height: 7vh;
+    align-items: center;
+}
+/*============== ESTILIZAÇÃO DO ÍNDEX ===================*/
+.titulo{
+    margin-left: 1.5vh;
+    
+}
+#funcao{
+    margin: 2.5vh;
+    font-size: 2vh;
+}
+.links{
+    margin-right: 1.5vh;
+}
+p{
+    color: #374151;
+}
+ul{
+    display: flex;
+    gap: 10px;
+}
+li{
+    list-style: none;
+    margin: .5vh;
+    margin-top: .5vh;
+}
+header a{
+    color: var(--branco);
+}
+header a:hover{
+    cursor: pointer;
+}
+.borda{
+    border: 1px, solid, var(--cor-princial);
+    background-color: var(--cor-princial);
+    border-radius: 6px;
+    padding: 1vh;
+}
+a{
+    text-decoration: none;
+}
+.semBorda:hover{
+    background-color: #f7f7f72a;
+    padding: 15px;
+    border-radius: 5px;
+}
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img img{
+    border-radius: 999px;
+}
+.perfil p{
+    text-align: center;
+}
+.contatos{
+    display: flex;
+    justify-content: center;
+    gap: 1.5vh;
+    margin-top: 1.5vh;
+}
+.habilidades{
+    display: flex;
+}
+.competencias li{
+    color: #2563EB;
+    background-color: var(--cor-secundaria);
+    border-radius: 2px;
+    padding: 1vh;
+}
+.experiencias h2{
+    margin-bottom: 1.5vh;
+}
+.competencias{
+    margin-left: 5vh;
+}
+ul{
+    margin-top: .5vh;
+    margin-bottom: 2vh;
+}
+hr{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.saberes {
+    border: 5px, solid, var(--cor-princial);
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    padding-left: 1.5vh;
+    margin-bottom: 2vh;
+}
+.saberes p{
+    margin-bottom: .5vh;
+}
+.sobre{
+    margin-left: 5vh;
+}
+.sobre h2{
+    margin-bottom: 1.5vh;
+}
+
+/*============ ESTILIZAÇÃO DA ABA PROJETOS ==============*/
+
+#projetos{
+    font-size: 3.5vh;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.cartao i{
+    background-color: #DBEAFE;
+    color: var(--cor-princial);
+    border-radius: 5px;
+    /* padding: 2.5vh; */
+    font-size: 7vh;
+}
+.cartao{
+    background-color: #fdfdfd;
+    padding: 25px;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 1px #42424250;
+    display: flex;
+}
+.inf{
+    display: flex;
+    align-items: center ;
+    border-radius: 50px;
+}
+#destaques{
+    background: #2561E8;
+    background: linear-gradient(90deg, rgba(37, 97, 232, 1) 0%, rgba(30, 65, 177, 1) 61%);
+    padding: 5vh;
+    border-radius: 5px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+}
+#destaques h2, #destaques p{
+    color: var(--branco);
+    margin-bottom: 1.5vh;
+}
+button{
+    padding: 1vh;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+    border-radius: 7px;
+    color: var(--cor-princial);
+    border: 0px;
+    font-size: 17px;
+    font-weight: 620;
+}
+.cards h2{
+    margin: 1.5vh;
+}
+.projetos h2{
+    margin-bottom: 1.5vh;
+    margin-left: 15vh;
+}
+
+.projeto{
+    display: flex;
+    background-color: #fdfdfd;
+    box-shadow: 0px 2px 5px 1px #42424250;
+    padding: 2.5vh;
+    padding-bottom: 5vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardProjeto{
+    text-align: center;
+}
+.cardProjeto h3{
+    font-size: 900%;
+    
+
+}
+#corzinha{
+    background-color: var(--cor-princial);
+    margin-bottom: -5px;
+    padding: 5vh;
+    border-radius: 5px;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    box-shadow: 0px 2px 5px 1px #42424250;
+    color: #276bff;
+}
+#corzinha h2{
+    font-size: xx-large;
+}
+.projeto div{
+    display: flex;
+}
+.linguagem{
+    background-color: #F3F4F6;
+    border-radius: 5px;
+    padding: .5vh;
+    margin: .5vh;
+    align-items: baseline;
+    font-size: 13px;
+}
+.projeto a{
+    color: var(--cor-princial);
+    margin-top: 1.5vh;
+}
+.encerramento{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.5vh;
+}
+.contribuicoes{
+    background-color: #F3F4F6;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 1px #42424250;
+    padding: 8vh;
+}
+.contribuicoes h2{
+    margin-left: -2px;
+}
+.contribuicoes p{
+    margin-bottom: 1.5vh;
+}
+.repositorios{
+    background-color: #F3F4F6;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 1px #42424250;
+    padding: 8vh;
+}
+.repositorios h2{
+    margin-bottom: 1.5vh;
+}
+.rpg{
+    border: 3px, solid, var(--cor-princial);
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    padding-left: .5vh;
+    margin-bottom: 1.5vh;
+}
+.aulasSenac{
+    border: 3px, solid, #16A34A;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    padding-left: .5vh;
+}
+footer{
+    background-color: #1F2937;
+    border-radius: 5px;
+    color: var(--branco);
+    margin: 1.5vh;
+    padding: 2.5vh;
+}
+footer h2{
+    margin-bottom: 1.5vh;
+}
+footer p{
+    color: #DBEAFE;
+}
+footer a{
+    color: var(--branco);
+}
+footer button{
+    background-color: var(--cor-princial);
+    color: var(--branco);
+    margin-top: 1.5vh;
+}
